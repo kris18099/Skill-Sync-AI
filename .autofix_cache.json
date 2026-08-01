@@ -1,0 +1,491 @@
+{
+  "f6185030c24e160e9a578d422001789a9a58be91fb0655d94062989183dd733b": {
+    "contact": {
+      "name": "Bob Marketer",
+      "email": "bob.m@example.com",
+      "phone": "555-0202",
+      "location": "",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Experienced Marketing Manager with 6 years of expertise in driving digital campaigns, executing SEO strategies, and managing comprehensive brand initiatives. Proven track record of optimizing ad budgets, increasing user engagement, and maximizing campaign ROI. Adept at cross-functional leadership, data analytics, and implementing high-converting marketing automation flows.",
+    "experience": [
+      {
+        "company": "Creative Agency Inc.",
+        "title": "Marketing Manager",
+        "startDate": "Jan 2019",
+        "endDate": "Present",
+        "location": "",
+        "bullets": [
+          "Directed a high-performing team of 4 professionals to execute comprehensive quarterly digital campaigns, successfully increasing client ROI by 25%.",
+          "Optimized and managed an annual advertising budget of $100k strategically allocated across Google and Facebook platforms."
+        ]
+      },
+      {
+        "company": "Startup X",
+        "title": "Marketing Specialist",
+        "startDate": "Jun 2016",
+        "endDate": "Dec 2018",
+        "location": "",
+        "bullets": [
+          "Designed and implemented targeted email marketing workflows that achieved a high engagement rate with a 35% open rate."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University",
+        "degree": "B.A. in Communications",
+        "startYear": "",
+        "endYear": "2016",
+        "location": "",
+        "gpa": ""
+      }
+    ],
+    "skills": [
+      "Digital Marketing Strategy",
+      "SEO & SEM Optimization",
+      "Content Creation & Copywriting",
+      "Google Analytics & Ads",
+      "Social Media Management",
+      "Hootsuite",
+      "Sprout Social",
+      "Email Marketing",
+      "Mailchimp",
+      "HubSpot"
+    ],
+    "projects": []
+  },
+  "2b51640fcb42e65c302164eae6d06a19e8d4afb7c550047815ff514b3c04980d": {
+    "contact": {
+      "name": "Joshua Nelson",
+      "email": "",
+      "phone": "+1-(234)-555-1234",
+      "location": "Los Angeles, California",
+      "linkedin": "linkedin.com",
+      "portfolio": ""
+    },
+    "summary": "Results-driven Marketing Specialist with 6 years of experience developing and executing data-driven strategies to elevate brand awareness and drive customer acquisition. Proficient in marketing automation, SEO/SEM, and advanced analytics, with a proven track record of increasing engagement by 30% and delivering impactful multi-channel campaigns. Collaborative professional dedicated to aligning cross-functional teams and clients to achieve superior business results.",
+    "experience": [
+      {
+        "company": "Cognitive Media Services",
+        "title": "Marketing Specialist",
+        "startDate": "01/2026",
+        "endDate": "Present",
+        "location": "Los Angeles, CA",
+        "bullets": [
+          "Developed and executed an integrated marketing strategy that accelerated brand awareness by 25% over a six-month period.",
+          "Evaluated performance metrics utilizing Google Analytics, driving a 30% enhancement in conversion rates across digital platforms.",
+          "Partnered with cross-functional teams to produce compelling content for blog posts, social media channels, and email newsletters.",
+          "Directed multi-platform social media operations, generating a 20% increase in followers and elevated engagement rates.",
+          "Facilitated client meetings to guarantee strategic alignment and satisfaction, successfully boosting client retention by 15%."
+        ]
+      },
+      {
+        "company": "Latitude Digital Solutions",
+        "title": "Digital Marketing Coordinator",
+        "startDate": "06/2023",
+        "endDate": "12/2025",
+        "location": "San Francisco, CA",
+        "bullets": [
+          "Executed multi-channel marketing campaigns that elevated lead generation by 35% through precise targeting and segmentation.",
+          "Leveraged marketing automation platforms such as HubSpot and SEMrush to streamline operational workflows and optimize campaign performance.",
+          "Spearheaded SEO initiatives that drove a 40% growth in organic website traffic over a 12-month period.",
+          "Collaborated alongside designers and developers to build high-converting landing pages and promotional materials."
+        ]
+      },
+      {
+        "company": "Sound Marketing Group",
+        "title": "Marketing Analyst",
+        "startDate": "07/2020",
+        "endDate": "05/2023",
+        "location": "Los Angeles, CA",
+        "bullets": [
+          "Contributed to the development of marketing campaigns that generated a 20% increase in client sales within a single fiscal year.",
+          "Interpreted market research data to uncover emerging trends and opportunities, strengthening competitive positioning.",
+          "Communicated clear, data-driven insights effectively to key stakeholders and team members to guide decision-making.",
+          "Optimized promotional events and trade show activities to maximize client engagement and brand visibility."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Southern California",
+        "degree": "Bachelor's Degree in Marketing",
+        "startYear": "2017",
+        "endYear": "2020",
+        "location": "Los Angeles, CA",
+        "gpa": ""
+      }
+    ],
+    "skills": [
+      "Marketing Automation",
+      "SEO/SEM Strategies",
+      "Social Media Management",
+      "Project Management",
+      "Google Analytics",
+      "Content Creation",
+      "Data Analysis",
+      "Lead Generation",
+      "Campaign Management"
+    ],
+    "projects": []
+  },
+  "65009406ab3f2f3dd8098d8e2d283c79edbfe4c26d8bc3e2bf3141173a389d7f": {
+    "contact": {
+      "name": "John W. Smith",
+      "email": "jwsmith@colostate.edu",
+      "phone": "",
+      "location": "Fort Collins, CO 80525",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Dedicated professional with four years of experience in early childhood development and a diverse background in the care of special needs children and adults. Demonstrated expertise in client management, database administration, volunteer coordination, and cross-functional healthcare collaboration. Proven ability to oversee daily operations, manage personnel, and support families in navigating financial and healthcare resources.",
+    "experience": [
+      {
+        "company": "The Wesley Center",
+        "title": "Counseling Supervisor",
+        "startDate": "1999",
+        "endDate": "2002",
+        "location": "Little Rock, Arkansas",
+        "bullets": [
+          "Coordinated service assignments efficiently for 20 part-time counselors and 100 client families.",
+          "Oversaw daily activity schedules and planned outings for 100 clients.",
+          "Supported families of special needs clients by researching and securing financial assistance and healthcare resources."
+        ]
+      },
+      {
+        "company": "Rainbow Special Care Center",
+        "title": "Client Specialist",
+        "startDate": "1997",
+        "endDate": "1999",
+        "location": "Little Rock, Arkansas",
+        "bullets": [
+          "Evaluated and determined optimal work placements for 150 special needs adult clients.",
+          "Maintained comprehensive client databases and records ensuring data accuracy.",
+          "Facilitated monthly client contact and communication with local healthcare professionals.",
+          "Managed, trained, and directed a team of 25 volunteer workers."
+        ]
+      },
+      {
+        "company": "Cowell Elementary",
+        "title": "Teacher’s Assistant",
+        "startDate": "1996",
+        "endDate": "1997",
+        "location": "Conway, Arkansas",
+        "bullets": [
+          "Assisted lead teachers with managing daily classroom activities and instructional support.",
+          "Supervised and organized daily and special student activities to ensure a safe and engaging environment."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Arkansas at Little Rock",
+        "degree": "BS in Early Childhood Development",
+        "startYear": "",
+        "endYear": "1999",
+        "location": "Little Rock, AR",
+        "gpa": "3.8"
+      },
+      {
+        "institution": "University of Arkansas at Little Rock",
+        "degree": "BA in Elementary Education",
+        "startYear": "",
+        "endYear": "1998",
+        "location": "Little Rock, AR",
+        "gpa": "3.5"
+      }
+    ],
+    "skills": [
+      "Early Childhood Development",
+      "Special Needs Care",
+      "Client Management",
+      "Database Administration",
+      "Volunteer Management",
+      "Healthcare Coordination",
+      "Activity Planning",
+      "Financial Assistance Research",
+      "Classroom Management"
+    ],
+    "projects": []
+  },
+  "90279153f7ff227a5237578739274a0ae0d6735c7e0b8a08da74e647418a3505": {
+    "contact": {
+      "name": "Alice Hacker",
+      "email": "alice@example.com",
+      "phone": "555-0101",
+      "location": "",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Recent Computer Science graduate with a strong foundation in backend development and cloud architecture. Eager to leverage technical skills in Python, JavaScript, and cloud technologies to contribute to a dynamic junior software engineering role. Passionate about building scalable applications and implementing robust database solutions.",
+    "experience": [],
+    "education": [
+      {
+        "institution": "University of Technology",
+        "degree": "B.S. in Computer Science",
+        "startYear": "",
+        "endYear": "May 2023",
+        "location": "",
+        "gpa": ""
+      }
+    ],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "React",
+      "Node.js",
+      "Express",
+      "Git",
+      "Docker",
+      "AWS",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "projects": [
+      {
+        "name": "Personal Blog",
+        "description": "Developed a full-stack blogging platform utilizing React for the frontend and Node.js for backend services, ensuring seamless user experience and efficient data management.",
+        "tech": "React, Node.js",
+        "link": ""
+      },
+      {
+        "name": "Weather App",
+        "description": "Engineered a Python script to programmatically fetch, process, and display real-time weather data by integrating with public APIs.",
+        "tech": "Python",
+        "link": ""
+      }
+    ]
+  },
+  "c91c6c9ad0cf338cf88d32fa65b3954036a9cc53418c0577b20c54ca682c3406": {
+    "contact": {
+      "name": "Diana Sales",
+      "email": "",
+      "phone": "",
+      "location": "",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Dedicated Enterprise Sales Executive with 6 years of experience driving revenue growth and managing high-value accounts. Proven track record of consistently exceeding sales quotas, closing multi-million-dollar deals, and leveraging CRM platforms to optimize the sales pipeline. Adept at strategic negotiation, B2B sales, and delivering exceptional results in competitive SaaS environments.",
+    "experience": [
+      {
+        "company": "Enterprise Tech Solutions",
+        "title": "Enterprise Sales Executive",
+        "startDate": "2018",
+        "endDate": "Present",
+        "location": "",
+        "bullets": [
+          "Consistently exceeded sales quotas by 120% year-over-year through targeted lead generation and strategic account management.",
+          "Closed $2M in Annual Recurring Revenue (ARR) in 2023 by successfully negotiating complex B2B SaaS contracts.",
+          "Managed the entire sales pipeline using Salesforce CRM, optimizing conversion rates and forecasting accuracy.",
+          "Awarded Top Salesperson of the Year for outstanding performance and revenue generation."
+        ]
+      }
+    ],
+    "education": [],
+    "skills": [
+      "B2B Sales",
+      "CRM",
+      "Salesforce",
+      "Account Management",
+      "Negotiation",
+      "SaaS",
+      "Lead Generation",
+      "Pipeline Management"
+    ],
+    "projects": []
+  },
+  "18c3829f666134f8c053974b6daeb5cbcfe1e743623d7b2b0cd333fe4d60155e": {
+    "contact": {
+      "name": "Krishika Gambhir",
+      "email": "krishikagambhir9@gmail.com",
+      "phone": "8448046373",
+      "location": "Gurugram, India",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Dedicated Bachelor of Computer Applications student with a strong academic background and hands-on experience in full-stack development, Generative AI integration, and digital marketing. Proficient in Java, JavaScript, Python, and modern web frameworks like Next.js and Tailwind CSS. Demonstrated leadership through content management, peer tutoring in DBMS and DSA, and active community volunteering.",
+    "experience": [
+      {
+        "company": "Innergiz Consulting Solutions",
+        "title": "Digital Marketing Intern",
+        "startDate": "Jun 2025",
+        "endDate": "Dec 2025",
+        "location": "",
+        "bullets": [
+          "Designed promotional posters and managed social media platforms to enhance brand visibility.",
+          "Nurtured potential leads through consistent LinkedIn engagement and professional communication."
+        ]
+      },
+      {
+        "company": "Certiport - A Pearson VUE Business",
+        "title": "Generative AI Foundations Intern",
+        "startDate": "Jun 2025",
+        "endDate": "Jun 2025",
+        "location": "",
+        "bullets": [
+          "Collaborated in an academic environment to build AI-integrated, user-centered web applications.",
+          "Engineered the 'LifeBalance' multi-page wellness application leveraging the Bolt framework, Next.js, and Tailwind CSS.",
+          "Integrated the Google Gemini API to implement an AI chatbot with adaptive tone logic and prompt engineering for personalized wellness guidance.",
+          "Developed comprehensive health progress tracking systems featuring wellness logs, daily health scoring, and data visualization tools."
+        ]
+      },
+      {
+        "company": "NCU",
+        "title": "Peer Tutor – DBMS and DSA",
+        "startDate": "Aug 2025",
+        "endDate": "Dec 2025",
+        "location": "",
+        "bullets": [
+          "Conducted structured study sessions to mentor peers in Database Management Systems and Data Structures & Algorithms.",
+          "Strengthened students' technical comprehension through targeted academic support and collaborative problem-solving."
+        ]
+      },
+      {
+        "company": "YATAN NGO Gurugram",
+        "title": "Teaching Volunteer",
+        "startDate": "",
+        "endDate": "",
+        "location": "Gurugram",
+        "bullets": [
+          "Delivered 30 hours of instruction in English and Mathematics to underprivileged students.",
+          "Designed structured lesson plans and facilitated interactive sessions to build foundational language and numeracy skills.",
+          "Enhanced students' academic confidence while demonstrating strong communication and mentoring capabilities."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Bachelor of Computer Applications",
+        "degree": "BCA",
+        "startYear": "2023",
+        "endYear": "2026",
+        "location": "",
+        "gpa": "9.40"
+      },
+      {
+        "institution": "Gems International School, Gurugram",
+        "degree": "Class XII (CBSE)",
+        "startYear": "",
+        "endYear": "2023",
+        "location": "Gurugram",
+        "gpa": "93%"
+      },
+      {
+        "institution": "Gems International School, Gurugram",
+        "degree": "Class X (CBSE)",
+        "startYear": "",
+        "endYear": "2021",
+        "location": "Gurugram",
+        "gpa": "88%"
+      }
+    ],
+    "skills": [
+      "Java",
+      "JavaScript",
+      "C",
+      "Python",
+      "HTML",
+      "CSS",
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "DBMS",
+      "MySQL",
+      "SQL",
+      "Git",
+      "GitHub",
+      "UI/UX Design",
+      "Active Listening",
+      "Communication Skills",
+      "Time Management",
+      "Presentation Skills"
+    ],
+    "projects": [
+      {
+        "name": "LifeBalance – Wellness & Habit Tracking Platform",
+        "description": "Developed a multi-page AI-powered wellness web application to support users in improving sleep, nutrition, and overall well-being through personalized digital guidance. Integrated Google Gemini API for context-aware responses, built a health progress tracking system with visual analytics, and designed responsive UI components focusing on accessibility.",
+        "tech": "Next.js, Bolt Framework, Tailwind CSS, Framer Motion, Google Gemini API, JavaScript, App Router, REST Integration",
+        "link": ""
+      }
+    ]
+  },
+  "108c0cff6cd33832081670dd367288bd9e7dd1415a7cfe35d345d68236acdeef": {
+    "contact": {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "location": "Houston, Texas",
+      "linkedin": "",
+      "portfolio": ""
+    },
+    "summary": "Hardworking carpenter with 4 years of hands-on experience in residential, commercial, and public building repairs and renovations. Proven track record of delivering quality craftsmanship, maintaining strict safety and building code compliance, and fostering positive client and team relationships. Skilled in trim and frame carpentry, project planning, and equipment maintenance.",
+    "experience": [
+      {
+        "company": "Wood Stork",
+        "title": "Carpenter",
+        "startDate": "08/2020",
+        "endDate": "Present",
+        "location": "Houston, Texas",
+        "bullets": [
+          "Installed custom home theater systems, kitchen appliances, and furniture to client specifications.",
+          "Applied comprehensive knowledge of building codes, safety protocols, and renovation procedures.",
+          "Enhanced customer service standards by delivering a high level of professionalism throughout construction projects.",
+          "Demonstrated exceptional project planning and time management abilities to ensure timely project completion.",
+          "Facilitated clear and effective communication with customers, subcontractors, and vendors."
+        ]
+      },
+      {
+        "company": "Richard A. Johnson",
+        "title": "Carpenter/Laborer",
+        "startDate": "10/2018",
+        "endDate": "08/2020",
+        "location": "Houston, Texas",
+        "bullets": [
+          "Maintained high standards of cleanliness and worksite safety, successfully reducing complaints by 25%.",
+          "Constructed new landscaping features including a pool and spa, and assisted in building a new warehouse.",
+          "Restored a historic sign and updated exterior company signage to align with new branding.",
+          "Promoted a collaborative team environment by demonstrating courtesy and respect to all associates.",
+          "Enforced environmental hazard protection policies and ensured proper use of safety equipment among workers."
+        ]
+      },
+      {
+        "company": "Columbia Machine",
+        "title": "Machine Operator",
+        "startDate": "06/2017",
+        "endDate": "10/2018",
+        "location": "Houston, Texas",
+        "bullets": [
+          "Executed preventative maintenance, cleaning, and general upkeep for all warehouse machinery.",
+          "Provided ongoing operational support to the warehouse manager and team members.",
+          "Delivered timely, high-quality service while maintaining strict product accuracy.",
+          "Demonstrated strong initiative and maintained a safe, clean work environment."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Concord Charter School",
+        "degree": "High School Diploma",
+        "startYear": "",
+        "endYear": "2017",
+        "location": "Houston, Texas",
+        "gpa": ""
+      }
+    ],
+    "skills": [
+      "Trim Carpentry",
+      "Frame Carpentry",
+      "Carpentry",
+      "Construction",
+      "Renovation",
+      "OSHA Compliance",
+      "Communication Skills",
+      "Project Planning",
+      "Machine Maintenance",
+      "Safety Procedures"
+    ],
+    "projects": []
+  }
+}

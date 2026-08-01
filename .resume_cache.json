@@ -1,0 +1,1294 @@
+{
+  "33736bb9e762b147d7d315d401470ed6ebb779b8f337092ac27ea40a663db679": {
+    "isResume": true,
+    "candidateName": "Test User",
+    "profileClassification": "Software Engineer",
+    "experienceLevel": "Fresher — no professional experience",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "JavaScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "TypeScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Node.js",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Python",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Django",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Flask",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "React",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Next.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Vue.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "PostgreSQL",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "MongoDB",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "Redis",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "Git",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Docker",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Kubernetes",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "AWS Services",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Jest",
+        "snippet": "Wrote comprehensive unit and integration tests using Jest and Supertest"
+      },
+      {
+        "skill": "Supertest",
+        "snippet": "Wrote comprehensive unit and integration tests using Jest and Supertest"
+      }
+    ],
+    "missingSkills": [
+      "CI/CD Pipelines",
+      "GraphQL",
+      "Microservices Architecture Patterns"
+    ],
+    "recommendedSkills": [
+      "GraphQL",
+      "CI/CD",
+      "System Design"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "The resume is well-structured and includes strong technical skills. To improve ATS performance, ensure your contact section includes a phone number and LinkedIn profile, and quantify your internship achievements with metrics where possible.",
+    "roleMatches": [
+      {
+        "role": "Junior Software Engineer",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Full Stack Developer",
+        "matchPercentage": 80
+      },
+      {
+        "role": "Backend Developer",
+        "matchPercentage": 78
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Build Full-Stack Projects",
+        "description": "Create deployable full-stack applications using React, Node.js, and PostgreSQL to showcase practical skills."
+      },
+      {
+        "title": "Learn CI/CD & DevOps Basics",
+        "description": "Deepen knowledge of deployment pipelines, GitHub Actions, and advanced Kubernetes configurations."
+      }
+    ],
+    "resumeStrengths": [
+      "Strong array of modern web technologies and frameworks listed",
+      "Clear formatting and well-defined sections",
+      "Includes relevant internship experience with quantifiable test coverage metrics"
+    ],
+    "resumeWeaknesses": [
+      "Lacks a phone number in the contact information",
+      "Limited professional experience beyond a single internship"
+    ],
+    "atsScore": 100
+  },
+  "e71a70a3a8be6797e11582d3a23756c92f2b25a03defcee814a04350a299d074": {
+    "isResume": true,
+    "candidateName": "Test User",
+    "profileClassification": "Software Engineer",
+    "experienceLevel": "Fresher — no professional experience",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "JavaScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "TypeScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Node.js",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Python",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Django",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Flask",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "React",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Next.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Vue.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "PostgreSQL",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "MongoDB",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "Redis",
+        "snippet": "Databases: PostgreSQL, MongoDB, Redis"
+      },
+      {
+        "skill": "Git",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Docker",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Kubernetes",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "AWS",
+        "snippet": "Tools: Git, Docker, Kubernetes, AWS Services (EC2, S3, RDS)"
+      },
+      {
+        "skill": "Jest",
+        "snippet": "Wrote comprehensive unit and integration tests using Jest and Supertest"
+      },
+      {
+        "skill": "Supertest",
+        "snippet": "Wrote comprehensive unit and integration tests using Jest and Supertest"
+      }
+    ],
+    "missingSkills": [
+      "GraphQL",
+      "CI/CD Pipelines",
+      "Microservices Architecture Advanced Patterns"
+    ],
+    "recommendedSkills": [
+      "GraphQL",
+      "CI/CD",
+      "System Design",
+      "Agile Methodologies"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "The resume is well-structured with clear sections, contact info, and quantified metrics. To improve further, ensure consistency in bullet point formatting and elaborate more on the projects section.",
+    "roleMatches": [
+      {
+        "role": "Junior Software Engineer",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Full Stack Developer",
+        "matchPercentage": 80
+      },
+      {
+        "role": "Frontend Developer",
+        "matchPercentage": 75
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Build Full-Stack Projects",
+        "description": "Develop and deploy complete end-to-end applications using React, Node.js, and PostgreSQL to showcase practical skills."
+      },
+      {
+        "title": "Contribute to Open Source",
+        "description": "Participate in open source repositories on GitHub to gain collaborative coding experience and visibility."
+      },
+      {
+        "title": "Master Cloud & DevOps",
+        "description": "Deepen your knowledge of AWS, Docker, and Kubernetes by setting up automated CI/CD pipelines."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear and concise professional summary",
+      "Strong technical stack listed including modern frameworks and cloud tools",
+      "Quantified achievements included in project/experience descriptions",
+      "Relevant internship experience with measurable results"
+    ],
+    "resumeWeaknesses": [
+      "Projects section lacks specific names and descriptions of what was built",
+      "Limited professional work history (though expected for a recent graduate)"
+    ],
+    "atsScore": 100
+  },
+  "97693f943fb81c236ca8c23ba2a68fcaea9fac1d62b5a9c06d700df2e95be947": {
+    "isResume": true,
+    "candidateName": "Test User",
+    "profileClassification": "Software Engineer",
+    "experienceLevel": "Fresher — no professional experience",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "JavaScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "TypeScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Node.js",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Python",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Django",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Flask",
+        "snippet": "Flask"
+      },
+      {
+        "skill": "React",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Next.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Vue.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Docker",
+        "snippet": "Assisted in the development of a microservices architecture using Node.js and Docker."
+      }
+    ],
+    "missingSkills": [
+      "CI/CD",
+      "Unit Testing",
+      "Cloud Platforms (AWS/GCP/Azure)",
+      "SQL/Databases"
+    ],
+    "recommendedSkills": [
+      "Jest",
+      "PostgreSQL",
+      "Git",
+      "AWS"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": false,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": false
+    },
+    "atsSuggestion": "Add an Education section, detail your university projects, and include metrics or outcomes in your experience description to improve ATS parsing and impact.",
+    "roleMatches": [
+      {
+        "role": "Junior Frontend Developer",
+        "matchPercentage": 75
+      },
+      {
+        "role": "Junior Backend Developer",
+        "matchPercentage": 70
+      },
+      {
+        "role": "Full Stack Developer",
+        "matchPercentage": 72
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Add Education Section",
+        "description": "Include your degree, university name, and graduation date."
+      },
+      {
+        "title": "Build Full-Stack Projects",
+        "description": "Create portfolio projects demonstrating end-to-end implementation with your listed skills."
+      },
+      {
+        "title": "Learn Database Technologies",
+        "description": "Gain proficiency in SQL or NoSQL databases like PostgreSQL or MongoDB."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear contact information provided",
+      "Relevant modern web technology stack listed",
+      "Includes a professional summary and internship experience"
+    ],
+    "resumeWeaknesses": [
+      "Missing education section",
+      "Lacks quantitative metrics or impactful results in experience descriptions",
+      "Very limited professional experience listed"
+    ],
+    "atsScore": 80
+  },
+  "531efca76fd5e1e2f71a601ce2e007a077805a9da6aa7e9e25879a5e872c0651": {
+    "isResume": true,
+    "candidateName": "Test User",
+    "profileClassification": "Software Engineer",
+    "experienceLevel": "0-2 Years",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "JavaScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "TypeScript",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Node.js",
+        "snippet": "JavaScript (ES6+), TypeScript, Node.js"
+      },
+      {
+        "skill": "Python",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Django",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "Flask",
+        "snippet": "Python, Django, Flask"
+      },
+      {
+        "skill": "React",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Next.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Vue.js",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Tailwind CSS",
+        "snippet": "React, Next.js, Vue.js, Tailwind CSS"
+      },
+      {
+        "skill": "Docker",
+        "snippet": "Assisted in the development of a microservices architecture using Node.js and Docker."
+      }
+    ],
+    "missingSkills": [
+      "Git",
+      "CI/CD",
+      "Unit Testing",
+      "SQL/Databases",
+      "Cloud Platforms (AWS/GCP/Azure)"
+    ],
+    "recommendedSkills": [
+      "PostgreSQL",
+      "Jest",
+      "Git",
+      "AWS",
+      "REST APIs"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": false
+    },
+    "atsSuggestion": "Add more detailed bullet points under your experience section detailing quantifiable impacts and metrics of your internship work.",
+    "roleMatches": [
+      {
+        "role": "Junior Software Engineer",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Frontend Developer",
+        "matchPercentage": 80
+      },
+      {
+        "role": "Backend Developer",
+        "matchPercentage": 75
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Enhance Project Descriptions",
+        "description": "Expand your experience section with action verbs and results-oriented bullet points."
+      },
+      {
+        "title": "Learn Version Control & Testing",
+        "description": "Add Git workflow knowledge and unit testing frameworks like Jest or PyTest to your resume."
+      },
+      {
+        "title": "Database Management",
+        "description": "Gain proficiency in SQL or NoSQL databases to complement your backend skill set."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear contact information and educational background.",
+      "Relevant tech stack including modern frameworks and languages.",
+      "Includes professional internship experience."
+    ],
+    "resumeWeaknesses": [
+      "Experience section is sparse with only one bullet point.",
+      "Lacks quantifiable metrics or impact in the work history.",
+      "Missing essential engineering tools like Git."
+    ],
+    "atsScore": 90
+  },
+  "65009406ab3f2f3dd8098d8e2d283c79edbfe4c26d8bc3e2bf3141173a389d7f": {
+    "isResume": true,
+    "candidateName": "John W. Smith",
+    "profileClassification": "Early Childhood Development and Care Professional",
+    "experienceLevel": "2-5 Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "Special Needs Care",
+        "snippet": "Four years experience in early childhood development with a diverse background in the care of special needs children and adults."
+      },
+      {
+        "skill": "Client Database Management",
+        "snippet": "Maintained client databases and records."
+      },
+      {
+        "skill": "Volunteer Management",
+        "snippet": "Managed 25 volunteer workers."
+      },
+      {
+        "skill": "Activity Planning",
+        "snippet": "Oversaw daily activity and outing planning for 100 clients."
+      },
+      {
+        "skill": "Financial Assistance Research",
+        "snippet": "Assisted families of special needs clients with researching financial assistance and healthcare."
+      }
+    ],
+    "missingSkills": [
+      "First Aid/CPR Certification",
+      "Individualized Education Program (IEP) Development",
+      "Crisis Intervention",
+      "Behavioral Management Strategies"
+    ],
+    "recommendedSkills": [
+      "CPR and First Aid Certified",
+      "Behavioral Management",
+      "IEP Implementation",
+      "Grant Writing"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": false,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "Add a dedicated 'Skills' section to improve keyword matching for ATS systems. Incorporate measurable achievements and relevant certifications like CPR or First Aid.",
+    "roleMatches": [
+      {
+        "role": "Childcare Center Director",
+        "matchPercentage": 75
+      },
+      {
+        "role": "Special Needs Coordinator",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Teacher's Assistant",
+        "matchPercentage": 90
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Obtain Relevant Certifications",
+        "description": "Acquire current CPR, First Aid, and specialized special needs care certifications to enhance professional credentials."
+      },
+      {
+        "title": "Add a Skills Section",
+        "description": "Explicitly list core competencies and technical skills in a dedicated section to optimize for ATS scanners."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear employment history with specific job titles and locations",
+      "Strong educational background with degrees in Early Childhood Development and Elementary Education",
+      "Quantifiable achievements in volunteer and client management"
+    ],
+    "resumeWeaknesses": [
+      "Lacks a dedicated skills section",
+      "Missing modern certifications such as CPR and First Aid",
+      "Older employment dates suggest the resume may need updating for contemporary roles"
+    ],
+    "atsScore": 90
+  },
+  "295826fbfa712c733129b441acd09075a2afc78c1e29dd201ed0044adcf1842e": {
+    "isResume": true,
+    "candidateName": "Dinesh Gambhir",
+    "profileClassification": "Warehouse Worker",
+    "experienceLevel": "2-5 Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "Pick Packer",
+        "snippet": "Currently working as pick packer in Perfume Forever Warehouse, Australia from June 2013."
+      },
+      {
+        "skill": "Supervisor",
+        "snippet": "Worked as supervisor at Marble warehouse, Dubai from July 2011-March 2013."
+      },
+      {
+        "skill": "Inventory Management",
+        "snippet": "Adept at finalizing and packaging finished products and maintaining inventories."
+      },
+      {
+        "skill": "Safety Compliance",
+        "snippet": "Meet all safety compliance standards and ensure the quality of our products."
+      },
+      {
+        "skill": "Loading and Unloading",
+        "snippet": "Load and unload items from machine conveyors."
+      },
+      {
+        "skill": "Assembly",
+        "snippet": "Follow all instructions and safety procedures during assembly."
+      }
+    ],
+    "missingSkills": [
+      "Forklift License",
+      "Logistics Management",
+      "Supply Chain Operations",
+      "RF Scanning"
+    ],
+    "recommendedSkills": [
+      "Forklift Operation",
+      "Inventory Software",
+      "Warehouse Management Systems (WMS)",
+      "Quality Assurance"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": false,
+      "hasClearFormatting": false,
+      "hasImpactfulDescriptions": false
+    },
+    "atsSuggestion": "Add a dedicated skills section to highlight warehouse operations and equipment handling. Include specific metrics or achievements under work experience to demonstrate impact.",
+    "roleMatches": [
+      {
+        "role": "Warehouse Worker",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Warehouse Supervisor",
+        "matchPercentage": 75
+      },
+      {
+        "role": "Pick Packer",
+        "matchPercentage": 90
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Obtain Certifications",
+        "description": "Acquire a high-demand certification such as a Forklift License (LF/LO) to increase employability in Australian warehouses."
+      },
+      {
+        "title": "Add a Skills Section",
+        "description": "Explicitly list relevant warehouse and administrative skills to improve keyword matching in ATS systems."
+      },
+      {
+        "title": "Quantify Achievements",
+        "description": "Update job descriptions with numbers, such as the volume of items handled daily or team sizes managed."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear contact information provided",
+      "Relevant international work experience in warehousing",
+      "Includes educational background"
+    ],
+    "resumeWeaknesses": [
+      "Lacks a dedicated skills section",
+      "Work experience descriptions are repetitive and lack quantified metrics",
+      "Formatting is basic and could be structured more professionally"
+    ],
+    "atsScore": 70
+  },
+  "18c3829f666134f8c053974b6daeb5cbcfe1e743623d7b2b0cd333fe4d60155e": {
+    "isResume": true,
+    "candidateName": "KRISHIKA GAMBHIR",
+    "profileClassification": "Fresher/Student",
+    "experienceLevel": "Fresher — no professional experience",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "Java",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "JavaScript",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "C",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "Python",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "HTML",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "CSS",
+        "snippet": "Programming: Java, JavaScript, C, Python, HTML, CSS"
+      },
+      {
+        "skill": "Data Structures & Algorithms",
+        "snippet": "Core CS: Data Structures & Algorithms, Operating Systems, DBMS"
+      },
+      {
+        "skill": "Operating Systems",
+        "snippet": "Core CS: Data Structures & Algorithms, Operating Systems, DBMS"
+      },
+      {
+        "skill": "DBMS",
+        "snippet": "Core CS: Data Structures & Algorithms, Operating Systems, DBMS"
+      },
+      {
+        "skill": "MySQL",
+        "snippet": "Databases: MySQL, SQL"
+      },
+      {
+        "skill": "SQL",
+        "snippet": "Databases: MySQL, SQL"
+      },
+      {
+        "skill": "Git",
+        "snippet": "Tools: Git, GitHub"
+      },
+      {
+        "skill": "GitHub",
+        "snippet": "Tools: Git, GitHub"
+      },
+      {
+        "skill": "UI/UX Design",
+        "snippet": "Other: UI/UX Design"
+      }
+    ],
+    "missingSkills": [
+      "Docker",
+      "Kubernetes",
+      "Cloud Platforms (AWS/GCP/Azure)",
+      "CI/CD Pipelines",
+      "Unit Testing"
+    ],
+    "recommendedSkills": [
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "API Testing (Postman)",
+      "Agile Methodologies"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "The resume contains strong project descriptions and good categorization of technical and soft skills. To improve ATS performance, ensure standard section headings are used and keep formatting consistent. Consider adding measurable impact metrics to your project descriptions where possible.",
+    "roleMatches": [
+      {
+        "role": "Frontend Developer",
+        "matchPercentage": 75
+      },
+      {
+        "role": "Junior Software Engineer",
+        "matchPercentage": 70
+      },
+      {
+        "role": "Full Stack Developer",
+        "matchPercentage": 65
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Build Production-Ready Projects",
+        "description": "Expand on current projects like LifeBalance by deploying them live and adding robust testing suites."
+      },
+      {
+        "title": "Learn Cloud & DevOps Basics",
+        "description": "Familiarize yourself with deployment platforms like Vercel or Netlify, and learn basic containerization with Docker."
+      },
+      {
+        "title": "Contribute to Open Source",
+        "description": "Use your Git and GitHub skills to contribute to open-source repositories to showcase collaborative development."
+      }
+    ],
+    "resumeStrengths": [
+      "High academic performance (CGPA 9.40)",
+      "Clear separation of technical proficiency, projects, and certifications",
+      "Detailed descriptions of hands-on project work involving modern tech stacks like Next.js and Tailwind CSS"
+    ],
+    "resumeWeaknesses": [
+      "Lack of full-time professional industry experience",
+      "Some future-dated entries or ambiguous timelines in internships and certifications should be verified for consistency"
+    ],
+    "atsScore": 100
+  },
+  "2b51640fcb42e65c302164eae6d06a19e8d4afb7c550047815ff514b3c04980d": {
+    "isResume": true,
+    "candidateName": "Joshua Nelson",
+    "profileClassification": "Marketing Specialist",
+    "experienceLevel": "6+ Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "Marketing Automation",
+        "snippet": "Proficient in marketing automation and analytics"
+      },
+      {
+        "skill": "SEO/SEM Strategies",
+        "snippet": "Coordinated SEO efforts that resulted in a 40% increase in organic website traffic"
+      },
+      {
+        "skill": "Social Media Management",
+        "snippet": "Managed multi-platform social media presence, resulting in a 20% growth in followers"
+      },
+      {
+        "skill": "Project Management",
+        "snippet": "Collaborated with cross-functional teams to deliver engaging content"
+      },
+      {
+        "skill": "Google Analytics",
+        "snippet": "Analyzed performance metrics using Google Analytics"
+      },
+      {
+        "skill": "Content Creation",
+        "snippet": "Collaborated with cross-functional teams to deliver engaging content for blog posts, social media, and newsletters"
+      },
+      {
+        "skill": "HubSpot",
+        "snippet": "Used marketing automation tools like HubSpot and SEMrush to streamline processes"
+      },
+      {
+        "skill": "SEMrush",
+        "snippet": "Used marketing automation tools like HubSpot and SEMrush to streamline processes"
+      }
+    ],
+    "missingSkills": [
+      "Tableau",
+      "SQL",
+      "Python",
+      "PPC Advertising"
+    ],
+    "recommendedSkills": [
+      "Google Ads",
+      "Meta Ads Manager",
+      "A/B Testing",
+      "CRM Management",
+      "Email Marketing"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "The resume is well-structured and includes strong metrics. To improve further, ensure standard section headers are used and incorporate more specific keyword variations relevant to targeted marketing roles.",
+    "roleMatches": [
+      {
+        "role": "Marketing Specialist",
+        "matchPercentage": 95
+      },
+      {
+        "role": "Digital Marketing Manager",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Marketing Analyst",
+        "matchPercentage": 90
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Advance Technical Analytics",
+        "description": "Gain proficiency in advanced data visualization tools like Tableau or Looker Studio to further enhance data-driven decision making."
+      },
+      {
+        "title": "Leadership and Strategy",
+        "description": "Take on larger cross-functional leadership roles or mentor junior marketing coordinators to prepare for a Marketing Manager or Director position."
+      }
+    ],
+    "resumeStrengths": [
+      "Strong use of quantifiable metrics and achievements in experience bullets.",
+      "Clear career progression from Marketing Analyst to Digital Marketing Coordinator and Marketing Specialist.",
+      "Comprehensive coverage of digital marketing tools and strategies."
+    ],
+    "resumeWeaknesses": [
+      "Contact information layout could be more explicitly structured with labeled email and phone fields.",
+      "Lacks specific certifications (e.g., Google Analytics Certification, HubSpot Certification) that would validate stated proficiencies."
+    ],
+    "atsScore": 100
+  },
+  "f6185030c24e160e9a578d422001789a9a58be91fb0655d94062989183dd733b": {
+    "isResume": true,
+    "candidateName": "Bob Marketer",
+    "profileClassification": "Marketing Manager",
+    "experienceLevel": "6-10 Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "Digital Marketing Strategy",
+        "snippet": "Experienced Marketing Manager with 6 years of experience in digital campaigns, SEO, and brand management."
+      },
+      {
+        "skill": "SEO & SEM Optimization",
+        "snippet": "SEO & SEM Optimization"
+      },
+      {
+        "skill": "Content Creation & Copywriting",
+        "snippet": "Content Creation & Copywriting"
+      },
+      {
+        "skill": "Google Analytics & Ads",
+        "snippet": "Google Analytics & Ads"
+      },
+      {
+        "skill": "Social Media Management",
+        "snippet": "Social Media Management (Hootsuite, Sprout Social)"
+      },
+      {
+        "skill": "Email Marketing",
+        "snippet": "Email Marketing (Mailchimp, HubSpot)"
+      }
+    ],
+    "missingSkills": [
+      "Marketing Automation",
+      "SQL",
+      "Data Visualization",
+      "A/B Testing",
+      "CRM Management"
+    ],
+    "recommendedSkills": [
+      "Tableau",
+      "SQL",
+      "Salesforce",
+      "Advanced A/B Testing",
+      "Product Marketing"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "The resume is well-structured and includes metrics for impact. To improve ATS performance, ensure that keywords from target job descriptions (such as conversion rate optimization or specific CRM tools) are explicitly mentioned.",
+    "roleMatches": [
+      {
+        "role": "Marketing Manager",
+        "matchPercentage": 92
+      },
+      {
+        "role": "Digital Marketing Specialist",
+        "matchPercentage": 88
+      },
+      {
+        "role": "Growth Marketing Manager",
+        "matchPercentage": 80
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Data-Driven Marketing Certification",
+        "description": "Obtain advanced certifications in Google Analytics 4 or data visualization tools to strengthen analytical decision-making."
+      },
+      {
+        "title": "Leadership & Strategy Expansion",
+        "description": "Take on larger budget management and cross-functional leadership roles to transition toward Director of Marketing positions."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear quantifiable achievements (e.g., increased client ROI by 25%, 35% open rate)",
+      "Concise and well-organized layout",
+      "Includes relevant tools and software proficiency"
+    ],
+    "resumeWeaknesses": [
+      "Lacks specific technical certifications (e.g., Google Ads certification)",
+      "Could benefit from a more detailed overview of cross-channel attribution modeling"
+    ],
+    "atsScore": 100
+  },
+  "90279153f7ff227a5237578739274a0ae0d6735c7e0b8a08da74e647418a3505": {
+    "isResume": true,
+    "candidateName": "Alice Hacker",
+    "profileClassification": "Fresher/Student",
+    "experienceLevel": "Fresher — no professional experience",
+    "profileType": "Technical",
+    "extractedSkills": [
+      {
+        "skill": "Python",
+        "snippet": "Languages: Python, JavaScript, Java"
+      },
+      {
+        "skill": "JavaScript",
+        "snippet": "Languages: Python, JavaScript, Java"
+      },
+      {
+        "skill": "Java",
+        "snippet": "Languages: Python, JavaScript, Java"
+      },
+      {
+        "skill": "React",
+        "snippet": "Frameworks: React, Node.js, Express"
+      },
+      {
+        "skill": "Node.js",
+        "snippet": "Frameworks: React, Node.js, Express"
+      },
+      {
+        "skill": "Express",
+        "snippet": "Frameworks: React, Node.js, Express"
+      },
+      {
+        "skill": "Git",
+        "snippet": "Tools: Git, Docker, AWS (EC2, S3)"
+      },
+      {
+        "skill": "Docker",
+        "snippet": "Tools: Git, Docker, AWS (EC2, S3)"
+      },
+      {
+        "skill": "AWS",
+        "snippet": "Tools: Git, Docker, AWS (EC2, S3)"
+      },
+      {
+        "skill": "PostgreSQL",
+        "snippet": "Databases: PostgreSQL, MongoDB"
+      },
+      {
+        "skill": "MongoDB",
+        "snippet": "Databases: PostgreSQL, MongoDB"
+      }
+    ],
+    "missingSkills": [
+      "CI/CD Pipelines",
+      "Unit Testing",
+      "Kubernetes",
+      "RESTful API Design"
+    ],
+    "recommendedSkills": [
+      "TypeScript",
+      "Redis",
+      "GraphQL",
+      "Agile Methodologies"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": true,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": false
+    },
+    "atsSuggestion": "Add quantifiable metrics and detailed bullet points to your project descriptions to demonstrate the impact and scale of your work.",
+    "roleMatches": [
+      {
+        "role": "Junior Software Engineer",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Junior Backend Developer",
+        "matchPercentage": 80
+      },
+      {
+        "role": "Full Stack Developer",
+        "matchPercentage": 75
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Build Advanced Projects",
+        "description": "Develop full-stack applications incorporating authentication, testing, and CI/CD pipelines."
+      },
+      {
+        "title": "Gain Open Source Experience",
+        "description": "Contribute to open-source projects using Python or JavaScript to demonstrate collaboration and code quality."
+      },
+      {
+        "title": "Prepare for Technical Interviews",
+        "description": "Practice data structures and algorithms on platforms like LeetCode and prepare system design fundamentals."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear and concise layout with a dedicated skills section",
+      "Relevant educational background in Computer Science",
+      "Includes practical project experience demonstrating full-stack capabilities"
+    ],
+    "resumeWeaknesses": [
+      "Lack of professional work experience",
+      "Project descriptions are brief and lack quantifiable impact metrics",
+      "Missing a professional certifications or achievements section"
+    ],
+    "atsScore": 90
+  },
+  "c91c6c9ad0cf338cf88d32fa65b3954036a9cc53418c0577b20c54ca682c3406": {
+    "isResume": true,
+    "candidateName": "Diana Sales",
+    "profileClassification": "Enterprise Sales Executive",
+    "experienceLevel": "6 Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "B2B Sales",
+        "snippet": "Skills: B2B Sales, CRM (Salesforce), Account Management..."
+      },
+      {
+        "skill": "CRM (Salesforce)",
+        "snippet": "Skills: B2B Sales, CRM (Salesforce), Account Management..."
+      },
+      {
+        "skill": "Account Management",
+        "snippet": "Skills: B2B Sales, CRM (Salesforce), Account Management..."
+      },
+      {
+        "skill": "Negotiation",
+        "snippet": "...Account Management, Negotiation, SaaS, Lead Generation..."
+      },
+      {
+        "skill": "SaaS",
+        "snippet": "...Negotiation, SaaS, Lead Generation, Pipeline Management."
+      },
+      {
+        "skill": "Lead Generation",
+        "snippet": "...SaaS, Lead Generation, Pipeline Management."
+      },
+      {
+        "skill": "Pipeline Management",
+        "snippet": "...Lead Generation, Pipeline Management."
+      }
+    ],
+    "missingSkills": [
+      "Sales Forecasting",
+      "Enterprise Resource Planning (ERP)",
+      "Contract Management",
+      "Sales Strategy"
+    ],
+    "recommendedSkills": [
+      "Sales Forecasting",
+      "Sales Strategy",
+      "Contract Negotiation",
+      "Sales Enablement"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": false,
+      "hasEducation": false,
+      "hasSkillsSection": true,
+      "hasClearFormatting": true,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "Add explicit contact information and an education section to improve ATS readability and completeness. Ensure professional summary is tailored to sales achievements rather than generic filler text.",
+    "roleMatches": [
+      {
+        "role": "Enterprise Sales Executive",
+        "matchPercentage": 90
+      },
+      {
+        "role": "Account Manager",
+        "matchPercentage": 85
+      },
+      {
+        "role": "Sales Manager",
+        "matchPercentage": 75
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Add Contact & Education Details",
+        "description": "Include phone number, email, LinkedIn profile, and educational background to ensure recruiters can easily contact you and verify credentials."
+      },
+      {
+        "title": "Expand Leadership & Strategy Skills",
+        "description": "Develop skills in sales forecasting, team leadership, or sales strategy to transition into a Sales Manager or Director role."
+      }
+    ],
+    "resumeStrengths": [
+      "Strong quantifiable achievements (exceeded quota by 120%, closed $2M in ARR)",
+      "Clear listing of relevant sales skills and tools such as Salesforce and SaaS",
+      "Recognition through awards (top salesperson of the year)"
+    ],
+    "resumeWeaknesses": [
+      "Missing contact information",
+      "Missing education section",
+      "Contains generic filler text in the summary section"
+    ],
+    "atsScore": 80
+  },
+  "108c0cff6cd33832081670dd367288bd9e7dd1415a7cfe35d345d68236acdeef": {
+    "isResume": true,
+    "candidateName": "Not Provided",
+    "profileClassification": "Carpenter",
+    "experienceLevel": "4 Years",
+    "profileType": "Non Technical",
+    "extractedSkills": [
+      {
+        "skill": "Trim Carpentry",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Osha",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Carpentry",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Construction",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Frame Carpentry",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Communication Skills",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      },
+      {
+        "skill": "Renovation",
+        "snippet": "Trim Carpentry, Osha, Carpentry, Construction, Frame Carpentry, Communication Skills, Renovation"
+      }
+    ],
+    "missingSkills": [
+      "Blueprint Reading",
+      "Drywall Installation",
+      "Cabinet Making",
+      "Estimating"
+    ],
+    "recommendedSkills": [
+      "Blueprint Reading",
+      "Power Tools Operation",
+      "Site Safety Management",
+      "Cost Estimation"
+    ],
+    "atsChecklist": {
+      "hasContactInfo": false,
+      "hasEducation": true,
+      "hasSkillsSection": true,
+      "hasClearFormatting": false,
+      "hasImpactfulDescriptions": true
+    },
+    "atsSuggestion": "Include clear contact information at the top of the resume, such as phone number, email address, and location. Ensure chronological work history dates are clearly linked to their respective positions.",
+    "roleMatches": [
+      {
+        "role": "Carpenter",
+        "matchPercentage": 90
+      },
+      {
+        "role": "Construction Worker",
+        "matchPercentage": 80
+      },
+      {
+        "role": "Machine Operator",
+        "matchPercentage": 75
+      }
+    ],
+    "roadmap": [
+      {
+        "title": "Add Contact Information",
+        "description": "Ensure your phone number, email, and location are prominently displayed."
+      },
+      {
+        "title": "Highlight Specialized Certifications",
+        "description": "Add specific details regarding your OSHA certification or other relevant safety credentials."
+      },
+      {
+        "title": "Expand Technical Skills",
+        "description": "Include experience with blueprint reading or specialized power tools if applicable."
+      }
+    ],
+    "resumeStrengths": [
+      "Clear mention of 4 years of relevant carpentry and construction experience",
+      "Good inclusion of measurable achievements like reducing complaints by 25%",
+      "Diverse background including carpentry and machine operations"
+    ],
+    "resumeWeaknesses": [
+      "Missing contact information (name, phone, email)",
+      "Work history date formatting and chronological alignment could be clearer",
+      "Lacks specific details on advanced certifications or blueprint reading"
+    ],
+    "atsScore": 80
+  }
+}

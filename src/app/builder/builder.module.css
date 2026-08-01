@@ -1,0 +1,316 @@
+.builderContainer {
+  display: flex;
+  height: calc(100vh - 72px); /* Adjust based on navbar height */
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.formPanel {
+  flex: 1;
+  max-width: 50%;
+  overflow-y: auto;
+  padding: 2rem;
+  border-right: 1px solid var(--border-color);
+  background-color: rgba(var(--bg-rgb), 0.5);
+}
+
+.previewPanel {
+  flex: 1;
+  max-width: 50%;
+  overflow-y: auto;
+  padding: 2rem;
+  background-color: #525659; /* Standard dark grey PDF viewer background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+}
+
+/* Resume Form Styles */
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.stepIndicator {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  font-family: inherit;
+}
+
+.formGroup textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.navigationButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.btnPrimary, .btnSecondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+}
+
+.btnPrimary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btnPrimary:hover {
+  filter: brightness(1.1);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btnSecondary:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Repeatable items */
+.entryCard {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.removeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: var(--danger-color);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.removeBtn:hover {
+  background-color: rgba(var(--danger-rgb), 0.1);
+}
+
+.addBtn {
+  width: 100%;
+  padding: 1rem;
+  border: 1px dashed var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.addBtn:hover {
+  background-color: rgba(var(--primary-rgb), 0.05);
+}
+
+/* Skills input */
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.skillBadge {
+  background-color: rgba(var(--primary-rgb), 0.1);
+  color: var(--primary-color);
+  border: 1px solid rgba(var(--primary-rgb), 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skillRemove {
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.7;
+}
+.skillRemove:hover {
+  opacity: 1;
+}
+
+.addSkillInput {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.addSkillInput input {
+  flex: 1;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Preview Styles */
+.previewControls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 210mm; /* A4 width */
+  margin-bottom: 1rem;
+}
+
+.templateSelect {
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.resumePaper {
+  background-color: white;
+  width: 210mm;
+  min-height: 297mm; /* A4 minimum height */
+  padding: 20mm;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  color: #000;
+  font-family: Arial, sans-serif;
+  flex-shrink: 0;
+}
+
+/* Dropdown Styles */
+.downloadWrapper {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 10;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.dropdownItem {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.dropdownItem:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 900px) {
+  .builderContainer {
+    flex-direction: column;
+    overflow: visible;
+    height: auto;
+  }
+  .formPanel, .previewPanel {
+    max-width: 100%;
+    border-right: none;
+    overflow: visible;
+  }
+}
+
+/* Print Styles */
+@media print {
+  @page {
+    margin: 0;
+  }
+  
+  body * {
+    visibility: hidden;
+  }
+  
+  .resumePaper, .resumePaper * {
+    visibility: visible;
+  }
+  
+  .resumePaper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; /* Let print margins handle it */
+    box-shadow: none;
+    background: white;
+  }
+
+  /* Reset all background colors on body */
+  html, body {
+    background-color: white !important;
+  }
+}
