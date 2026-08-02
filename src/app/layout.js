@@ -20,11 +20,8 @@ export default function RootLayout({ children }) {
           colorInputBackground: "#131A35", // Dark input background
           colorInputText: "#FFFFFF", // White input text
           colorText: "#FFFFFF",
-          colorForeground: "#FFFFFF",
-          colorTextSecondary: "#22D3EE", // Cyan brand color for subtitles
-          colorMutedForeground: "#94A3B8", // High-contrast light grey/blue for secondary text/labels
+          colorTextSecondary: "#94A3B8", // High-contrast light grey/blue for secondary text/labels
           colorDanger: "#FB7185", // Rose warning/error color
-          colorPrimaryForeground: "#FFFFFF",
         },
         elements: {
           card: {

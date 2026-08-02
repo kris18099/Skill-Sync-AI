@@ -31,10 +31,7 @@ export default function SignUpPage() {
       colorInputBackground: isDark ? "#131A35" : "#F8FAFC",
       colorInputText: isDark ? "#FFFFFF" : "#0F172A",
       colorText: isDark ? "#FFFFFF" : "#0F172A",
-      colorForeground: isDark ? "#FFFFFF" : "#0F172A",
-      colorTextSecondary: isDark ? "#22D3EE" : "#4F46E5",
-      colorMutedForeground: isDark ? "#94A3B8" : "#475569",
-      colorPrimaryForeground: "#FFFFFF",
+      colorTextSecondary: isDark ? "#94A3B8" : "#4F46E5",
     },
     elements: {
       card: {
