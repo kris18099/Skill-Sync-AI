@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useLayoutEffect } from "react";
 import { Download, ChevronDown } from "lucide-react";
 import styles from "../builder.module.css";
 

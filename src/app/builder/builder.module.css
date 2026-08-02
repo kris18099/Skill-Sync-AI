@@ -17,12 +17,13 @@
 .previewPanel {
   flex: 1;
   max-width: 50%;
-  overflow-y: auto;
+  overflow: hidden;
   padding: 2rem;
   background-color: #525659; /* Standard dark grey PDF viewer background */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   position: relative;
   z-index: 1;
   isolation: isolate;

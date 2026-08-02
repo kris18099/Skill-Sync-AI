@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useAnalysis } from '@/context/AnalysisContext';
+import { useAuth } from '@clerk/nextjs';
+import { getStorageItem, setStorageItem } from '@/lib/storage';
 import styles from '@/app/page.module.css';
 import Link from 'next/link';
 import { ExternalLink } from 'lucide-react';
@@ -11,9 +13,10 @@ export default function LearningPage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const { userId, isLoaded: isAuthLoaded } = useAuth();
 
   useEffect(() => {
-    if (!analysis) return;
+    if (!analysis || !isAuthLoaded) return;
 
     if (!analysis.missingSkills || analysis.missingSkills.length === 0) {
       setLoading(false);
@@ -22,7 +25,7 @@ export default function LearningPage() {
     }
 
     const cacheKey = `learning_${id}`;
-    const cachedData = sessionStorage.getItem(cacheKey);
+    const cachedData = getStorageItem(cacheKey, userId);
     if (cachedData) {
       setData(JSON.parse(cachedData));
       setLoading(false);
@@ -43,7 +46,7 @@ export default function LearningPage() {
         if (!response.ok) throw new Error(result.error);
         
         setData(result);
-        sessionStorage.setItem(cacheKey, JSON.stringify(result));
+        setStorageItem(cacheKey, JSON.stringify(result), userId);
       } catch (err) {
         setError(err.message);
       } finally {
@@ -52,7 +55,8 @@ export default function LearningPage() {
     };
 
     fetchLearning();
-  }, [analysis]);
+  }, [analysis, isAuthLoaded, userId, id]);
+
 
   if (!analysis) return null;
 

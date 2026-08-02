@@ -1,0 +1,15 @@
+- [x] Install dependencies (`@clerk/nextjs`, `@clerk/themes`)
+- [x] Create storage utility `src/lib/storage.js`
+- [x] Create middleware/proxy `src/proxy.js`
+- [x] Create custom auth modal context `src/context/AuthModalContext.js`
+- [x] Create sign-in and sign-up fallback pages
+- [x] Update root layout `src/app/layout.js`
+- [x] Update navigation bar `src/components/Navbar.js`
+- [x] Update homepage `src/app/page.js`
+- [x] Update builder page `src/app/builder/page.js`
+- [x] Update report pages to use user-scoped storage
+  - [x] `src/app/report/[id]/page.js`
+  - [x] `src/app/report/[id]/career-intelligence/page.js`
+  - [x] `src/app/report/[id]/learning/page.js`
+  - [x] `src/app/report/[id]/mock-interview/page.js`
+- [x] Build and verify locally

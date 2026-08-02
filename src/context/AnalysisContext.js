@@ -1,6 +1,8 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect } from 'react';
+import { useAuth } from '@clerk/nextjs';
+import { getStorageItem, setStorageItem } from '@/lib/storage';
 
 const AnalysisContext = createContext();
 
@@ -12,20 +14,22 @@ export function AnalysisProvider({ children, id }) {
   const [analysis, setAnalysis] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { userId, isLoaded: isAuthLoaded } = useAuth();
   
   // Custom tracking for learning progress
   const [learningProgress, setLearningProgress] = useState({});
 
   useEffect(() => {
+    if (!isAuthLoaded) return;
     try {
-      const stored = sessionStorage.getItem(`analysis_${id}`);
+      const stored = getStorageItem(`analysis_${id}`, userId);
       if (stored) {
         setAnalysis(JSON.parse(stored));
       } else {
         setError("Analysis not found. Please upload your resume again.");
       }
       
-      const storedProgress = sessionStorage.getItem(`progress_${id}`);
+      const storedProgress = getStorageItem(`progress_${id}`, userId);
       if (storedProgress) {
         setLearningProgress(JSON.parse(storedProgress));
       }
@@ -34,7 +38,7 @@ export function AnalysisProvider({ children, id }) {
     } finally {
       setLoading(false);
     }
-  }, [id]);
+  }, [id, isAuthLoaded, userId]);
 
   // Compute Career Readiness
   const getCareerReadiness = () => {
@@ -65,7 +69,7 @@ export function AnalysisProvider({ children, id }) {
   const updateLearningProgress = (skillOrCert, status) => {
     const newProgress = { ...learningProgress, [skillOrCert]: status };
     setLearningProgress(newProgress);
-    sessionStorage.setItem(`progress_${id}`, JSON.stringify(newProgress));
+    setStorageItem(`progress_${id}`, JSON.stringify(newProgress), userId);
   };
 
   const value = {
@@ -84,3 +88,4 @@ export function AnalysisProvider({ children, id }) {
     </AnalysisContext.Provider>
   );
 }
+

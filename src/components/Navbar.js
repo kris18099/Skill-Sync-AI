@@ -2,11 +2,17 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Cpu, Sun, Moon, FileText } from "lucide-react";
+import { useAuth, UserButton } from "@clerk/nextjs";
+import { useAuthModal } from "@/context/AuthModalContext";
 import styles from "@/app/page.module.css";
 
 export default function Navbar() {
   const [theme, setTheme] = useState("dark");
+  const { isSignedIn } = useAuth();
+  const { requireAuth } = useAuthModal();
+  const router = useRouter();
 
   useEffect(() => {
     // Read current theme from html tag if it exists
@@ -22,6 +28,14 @@ export default function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  const handleBuildResumeClick = (e) => {
+    e.preventDefault();
+    requireAuth(() => {
+      sessionStorage.removeItem('builder_resume_data');
+      router.push('/builder');
+    });
+  };
+
   return (
     <nav className={`${styles.navbar} glass`} style={{ position: 'sticky', top: 0, zIndex: 100 }}>
       <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -34,7 +48,7 @@ export default function Navbar() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
         <a 
           href="/builder" 
-          onClick={() => sessionStorage.removeItem('builder_resume_data')}
+          onClick={handleBuildResumeClick}
           style={{ 
             display: 'flex', 
             alignItems: 'center', 
@@ -54,6 +68,21 @@ export default function Navbar() {
           <FileText size={16} />
           <span className="build-resume-text">Build a Resume</span>
         </a>
+
+        {isSignedIn && (
+          <UserButton 
+            appearance={{
+              elements: {
+                avatarBox: {
+                  width: '32px',
+                  height: '32px',
+                  border: '2px solid #6366F1',
+                }
+              }
+            }}
+          />
+        )}
+
         <button onClick={toggleTheme} className={styles.iconBtn} title="Toggle Theme">
           {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
         </button>
@@ -75,3 +104,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

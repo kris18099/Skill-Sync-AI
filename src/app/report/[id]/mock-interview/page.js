@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useAnalysis } from '@/context/AnalysisContext';
+import { useAuth } from '@clerk/nextjs';
+import { getStorageItem, setStorageItem } from '@/lib/storage';
 import styles from '@/app/page.module.css';
 import Link from 'next/link';
 
@@ -14,12 +16,13 @@ export default function MockInterviewPage() {
   const [loading, setLoading] = useState(true);
   const [evaluating, setEvaluating] = useState(false);
   const [error, setError] = useState("");
+  const { userId, isLoaded: isAuthLoaded } = useAuth();
 
   useEffect(() => {
-    if (!analysis) return;
+    if (!analysis || !isAuthLoaded) return;
 
     const cacheKey = `interview_q_${id}`;
-    const cachedData = sessionStorage.getItem(cacheKey);
+    const cachedData = getStorageItem(cacheKey, userId);
     if (cachedData) {
       setQuestions(JSON.parse(cachedData));
       setLoading(false);
@@ -43,7 +46,7 @@ export default function MockInterviewPage() {
         if (!response.ok) throw new Error(result.error);
         
         setQuestions(result);
-        sessionStorage.setItem(cacheKey, JSON.stringify(result));
+        setStorageItem(cacheKey, JSON.stringify(result), userId);
       } catch (err) {
         setError(err.message);
       } finally {
@@ -52,7 +55,8 @@ export default function MockInterviewPage() {
     };
 
     generateQuestions();
-  }, [analysis]);
+  }, [analysis, isAuthLoaded, userId, id]);
+
 
   const handleEvaluate = async () => {
     setEvaluating(true);

@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useAnalysis } from '@/context/AnalysisContext';
+import { useAuth } from '@clerk/nextjs';
+import { getStorageItem, setStorageItem } from '@/lib/storage';
 import styles from '@/app/page.module.css';
 import Link from 'next/link';
 
@@ -10,13 +12,14 @@ export default function CareerIntelligencePage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const { userId, isLoaded: isAuthLoaded } = useAuth();
 
   useEffect(() => {
-    if (!analysis) return;
+    if (!analysis || !isAuthLoaded) return;
 
-    // Check if we already cached it in sessionStorage to avoid refetching
+    // Check if we already cached it in user-scoped storage to avoid refetching
     const cacheKey = `career_${id}`;
-    const cachedData = sessionStorage.getItem(cacheKey);
+    const cachedData = getStorageItem(cacheKey, userId);
     if (cachedData) {
       setData(JSON.parse(cachedData));
       setLoading(false);
@@ -38,7 +41,7 @@ export default function CareerIntelligencePage() {
         if (!response.ok) throw new Error(result.error);
         
         setData(result);
-        sessionStorage.setItem(cacheKey, JSON.stringify(result));
+        setStorageItem(cacheKey, JSON.stringify(result), userId);
       } catch (err) {
         setError(err.message);
       } finally {
@@ -47,9 +50,10 @@ export default function CareerIntelligencePage() {
     };
 
     fetchCareerIntelligence();
-  }, [analysis]);
+  }, [analysis, isAuthLoaded, userId, id]);
 
   if (!analysis) return null;
+
 
   return (
     <section className={styles.dashboardSection} style={{ marginTop: 0 }}>

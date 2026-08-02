@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { useAnalysis } from '@/context/AnalysisContext';
+import { useAuth } from '@clerk/nextjs';
+import { setStorageItem, removeStorageItem } from '@/lib/storage';
 import { Cpu, CheckCircle, XCircle, TrendingUp, Briefcase, Clock } from "lucide-react";
 import styles from '@/app/page.module.css';
 import Link from 'next/link';
@@ -10,11 +12,12 @@ import { useRouter } from 'next/navigation';
 export default function OverviewPage() {
   const { analysis, id } = useAnalysis();
   const router = useRouter();
+  const { userId } = useAuth();
   const [isFixing, setIsFixing] = useState(false);
 
   const handleNewUpload = () => {
-    sessionStorage.removeItem(`analysis_${id}`);
-    sessionStorage.removeItem(`progress_${id}`);
+    removeStorageItem(`analysis_${id}`, userId);
+    removeStorageItem(`progress_${id}`, userId);
     router.push('/');
   };
 
@@ -33,7 +36,7 @@ export default function OverviewPage() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Failed to auto-fix");
       
-      sessionStorage.setItem("builder_resume_data", JSON.stringify(data));
+      setStorageItem("builder_resume_data", JSON.stringify(data), userId);
       router.push('/builder');
     } catch (err) {
       alert(err.message);
@@ -42,6 +45,7 @@ export default function OverviewPage() {
   };
 
   if (!analysis) return null;
+
 
   return (
     <section className={styles.dashboardSection}>

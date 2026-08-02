@@ -1,23 +1,52 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useRef, useEffect, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Cpu, Sun, Moon, UploadCloud, Zap, Map } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
+import { useAuthModal } from "@/context/AuthModalContext";
+import { setStorageItem } from "@/lib/storage";
 import styles from "./page.module.css";
 
-export default function Home() {
+function HomeContent() {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [validationError, setValidationError] = useState("");
   const fileInputRef = useRef(null);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { userId } = useAuth();
+  const { requireAuth } = useAuthModal();
+
+  useEffect(() => {
+    if (searchParams && searchParams.get("showAuth") === "true") {
+      const redirect = searchParams.get("redirect") || "/";
+      requireAuth(() => {
+        router.push(redirect);
+      });
+    }
+  }, [searchParams]);
 
   const handleDrop = (e) => {
     e.preventDefault();
     if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
-      processFile(e.dataTransfer.files[0]);
+      const droppedFile = e.dataTransfer.files[0];
+      // Validate first so they don't sign in for an invalid file
+      const validTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+      if (!validTypes.includes(droppedFile.type)) {
+        setValidationError("Unsupported file format. Please upload PDF or DOCX.");
+        return;
+      }
+      if (droppedFile.size > 10 * 1024 * 1024) {
+        setValidationError("File size exceeds 10MB limit.");
+        return;
+      }
+
+      requireAuth(() => {
+        processFile(droppedFile);
+      });
     }
   };
 
@@ -60,7 +89,8 @@ export default function Home() {
       }
 
       const analysisId = crypto.randomUUID();
-      sessionStorage.setItem(`analysis_${analysisId}`, JSON.stringify(data));
+      // Scope storage to this specific authenticated user
+      setStorageItem(`analysis_${analysisId}`, JSON.stringify(data), userId);
       router.push(`/report/${analysisId}`);
 
     } catch (err) {
@@ -88,7 +118,11 @@ export default function Home() {
             className={`${styles.uploadContainer} glass`}
             onDragOver={(e) => e.preventDefault()}
             onDrop={handleDrop}
-            onClick={() => fileInputRef.current.click()}
+            onClick={() => {
+              requireAuth(() => {
+                fileInputRef.current.click();
+              });
+            }}
           >
             <input
               type="file"
@@ -96,7 +130,9 @@ export default function Home() {
               hidden
               accept=".pdf, .doc, .docx"
               onChange={(e) => {
-                if (e.target.files.length) processFile(e.target.files[0]);
+                if (e.target.files.length) {
+                  processFile(e.target.files[0]);
+                }
               }}
             />
             <div className={styles.uploadIconWrapper}>
@@ -116,7 +152,13 @@ export default function Home() {
           {error && <p className={styles.errorMsg} style={{ maxWidth: '600px', margin: '-1.5rem auto 1.5rem auto' }}>{error}</p>}
 
           <div style={{ marginTop: '1.5rem', textAlign: 'center', marginBottom: '2rem' }}>
-            <Link href="/builder" onClick={() => sessionStorage.removeItem('builder_resume_data')} style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', transition: 'color 0.2s ease' }} onMouseOver={e => e.target.style.color='var(--primary-color)'} onMouseOut={e => e.target.style.color='var(--text-secondary)'}>
+            <Link href="/builder" onClick={(e) => {
+              e.preventDefault();
+              requireAuth(() => {
+                sessionStorage.removeItem('builder_resume_data');
+                router.push('/builder');
+              });
+            }} style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.95rem', transition: 'color 0.2s ease' }} onMouseOver={e => e.target.style.color='var(--primary-color)'} onMouseOut={e => e.target.style.color='var(--text-secondary)'}>
               Don't have a resume yet? <span style={{ color: 'var(--primary-color)', fontWeight: 600 }}>Build one from scratch &rarr;</span>
             </Link>
           </div>
@@ -154,3 +196,20 @@ export default function Home() {
     </main>
   );
 }
+
+export default function Home() {
+  return (
+    <Suspense fallback={
+      <main className={styles.main}>
+        <section className={styles.loadingContainer}>
+          <div className={styles.spinner}></div>
+          <h2>Loading...</h2>
+        </section>
+      </main>
+    }>
+      <HomeContent />
+    </Suspense>
+  );
+}
+
+
