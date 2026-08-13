@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SkillSync AI
 
-## Getting Started
+AI Career Intelligence Platform — turning a resume into a personalized, actionable path to your target job.
 
-First, run the development server:
+Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SkillSync AI helps job seekers understand exactly where they stand against the roles they want — and what to do next. Instead of generic career advice, it analyzes a user's actual resume against real job market data and generates a concrete, week-by-week learning roadmap to close the gap.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built by Team Prompt Storm.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+How It Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The platform runs through a simple 4-step flow:
 
-## Learn More
+Resume Upload — User uploads or pastes their resume.
+Skill Profile — The system extracts technical skills from the resume.
+Gap Analysis — Extracted skills are compared against current job market postings using FAISS-based similarity search to identify missing or weak skills for the user's target role.
+Learning Roadmap — A personalized, multi-week learning plan is generated, complete with a capstone project for each week to reinforce new skills.
+Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+Current version
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Backend: Python (Flask/FastAPI)
+Frontend: JavaScript
+Skill-gap matching: FAISS (vector similarity search)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next version (in progress)
 
-## Deploy on Vercel
+Framework: Next.js
+AI: Google Gemini API for resume analysis
+Built using Antigravity (AI coding tool)
+Features
+🎯 Target-role-based analysis (not one-size-fits-all)
+📄 Resume parsing and technical skill extraction
+🔍 Market-driven gap analysis against real job postings
+🗺️ Personalized multi-week learning roadmap
+🏗️ Capstone projects per week for hands-on practice
+Roadmap
+ Migrate to Next.js frontend/backend
+ Integrate Google Gemini API for deeper resume analysis
+ More interactive, advanced UI/UX
+ Expand job market data sources
+Team
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Prompt Storm
