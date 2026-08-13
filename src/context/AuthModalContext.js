@@ -86,6 +86,48 @@ export function AuthModalProvider({ children }) {
       },
       footerAction: {
         display: "none", // Hidden, rendered by custom footer
+      },
+      headerTitle: {
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        fontFamily: "'Outfit', sans-serif",
+        fontWeight: "700",
+      },
+      headerSubtitle: {
+        color: isDark ? "#22D3EE" : "#4F46E5",
+        fontSize: "0.95rem",
+      },
+      formFieldLabel: {
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        fontWeight: "500",
+      },
+      socialButtonsBlockButtonText: {
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        fontWeight: "600",
+      },
+      socialButtonsBlockButton: {
+        backgroundColor: isDark ? "#131A35" : "#F8FAFC",
+        border: isDark ? "1px solid rgba(255, 255, 255, 0.15)" : "1px solid #E2E8F0",
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        transition: "all 0.2s ease",
+      },
+      dividerText: {
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        fontWeight: "500",
+      },
+      dividerLine: {
+        backgroundColor: isDark ? "rgba(255, 255, 255, 0.15)" : "#E2E8F0",
+      },
+      formButtonPrimary: {
+        color: "#FFFFFF",
+        backgroundColor: "#6366F1",
+        "&:hover": {
+          backgroundColor: "#4F46E5",
+        },
+      },
+      formFieldInput: {
+        backgroundColor: isDark ? "#131A35" : "#F8FAFC",
+        color: isDark ? "#FFFFFF" : "#0F172A",
+        border: isDark ? "1px solid rgba(255, 255, 255, 0.15)" : "1px solid #E2E8F0",
       }
     },
   };

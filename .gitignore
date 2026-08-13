@@ -1,6 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# ================================
+# Dependencies
+# ================================
 /node_modules
 /.pnp
 .pnp.*
@@ -10,38 +10,65 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
-
-# next.js
+# ================================
+# Next.js
+# ================================
 /.next/
 /out/
-
-# production
 /build
 
-# misc
-.DS_Store
-*.pem
+# ================================
+# Vercel
+# ================================
+.vercel/
 
-# debug
+# ================================
+# Environment Variables / Secrets
+# ================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.vercel.local
+
+# ================================
+# Clerk
+# ================================
+/.clerk/
+
+# ================================
+# Testing
+# ================================
+/coverage
+
+# ================================
+# Debug Logs
+# ================================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# ================================
+# TypeScript
+# ================================
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
-.env*
+# ================================
+# OS / Miscellaneous
+# ================================
+.DS_Store
+*.pem
 
-# clerk configuration (can include secrets)
-/.clerk/
+# ================================
+# Local Cache Files
+# ================================
+.autofix_cache.json
+.resume_cache.json
+
+# ================================
+# Private / Uploaded Resumes
+# ================================
+*.pdf

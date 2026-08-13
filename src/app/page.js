@@ -189,8 +189,8 @@ function HomeContent() {
       {loading && (
         <section className={styles.loadingContainer}>
           <div className={`${styles.spinner}`}></div>
-          <h2>Analyzing your resume using Gemini AI...</h2>
-          <p className={styles.subtitle}>This might take a few seconds.</p>
+          <h2>Analyzing your resume...</h2>
+          <p className={styles.subtitle}>Extracting skills, scoring ATS match, and generating insights.</p>
         </section>
       )}
     </main>

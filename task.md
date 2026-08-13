@@ -3,10 +3,12 @@
 - [x] Create middleware/proxy `src/proxy.js`
 - [x] Create custom auth modal context `src/context/AuthModalContext.js`
 - [x] Create sign-in and sign-up fallback pages
-- [x] Update root layout `src/app/layout.js`
-- [x] Update navigation bar `src/components/Navbar.js`
-- [x] Update homepage `src/app/page.js`
-- [x] Update builder page `src/app/builder/page.js`
+- [x] Update Clerk Provider appearance variables in `src/app/layout.js`
+- [x] Add element overrides (badge, label, preview identifiers, subtitles) to white in `src/app/layout.js`
+- [x] Verify compilation via `npm run build`
+- [x] Implement filesystem cache (`.resume_cache.json`) in `src/app/api/analyze/route.js`
+- [x] Run test scripts to verify deterministic scoring and cache hits
+- [x] Perform a Next.js production build check
 - [x] Update report pages to use user-scoped storage
   - [x] `src/app/report/[id]/page.js`
   - [x] `src/app/report/[id]/career-intelligence/page.js`

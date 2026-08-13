@@ -4,14 +4,31 @@ import pdfParse from 'pdf-parse-new';
 import { NextResponse } from 'next/server';
 import { getWorkingModel, invalidateModelCache } from '@/lib/geminiModelResolution';
 import crypto from 'crypto';
+import fs from 'fs';
+import path from 'path';
 
-// In-memory cache for resume analysis (safe for serverless/Vercel)
-const analysisCache = new Map();
+// Robust file-based cache for resume analysis to ensure deterministic results and avoid API calls
+const CACHE_FILE = path.join(process.cwd(), '.resume_cache.json');
+
 function getCache() {
-    return Object.fromEntries(analysisCache);
+    try {
+        if (fs.existsSync(CACHE_FILE)) {
+            return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+        }
+    } catch (e) {
+        console.error("Cache read error", e);
+    }
+    return {};
 }
+
 function setCache(hash, data) {
-    analysisCache.set(hash, data);
+    try {
+        const cache = getCache();
+        cache[hash] = data;
+        fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2), 'utf8');
+    } catch (e) {
+        console.error("Cache write error", e);
+    }
 }
 
 const SYSTEM_PROMPT = `You are SkillSync AI, an expert ATS system and Career Coach. 
@@ -81,9 +98,10 @@ export async function POST(request) {
 
         // --- CACHING LOGIC ---
         const textHash = crypto.createHash('sha256').update(rawText.trim()).digest('hex');
-        if (analysisCache.has(textHash)) {
+        const cache = getCache();
+        if (cache[textHash]) {
             console.log(`[Cache Hit] Returning cached analysis for hash: ${textHash}`);
-            const cachedData = analysisCache.get(textHash);
+            const cachedData = cache[textHash];
             cachedData.rawText = rawText;
             return NextResponse.json(cachedData);
         }

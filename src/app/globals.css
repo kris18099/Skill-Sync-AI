@@ -138,3 +138,33 @@ a {
 @keyframes spin {
   100% { transform: rotate(360deg); }
 }
+
+/* Hide Clerk Keyless Mode developmental badges, toasts, and prompts */
+#clerk-keyless-prompt,
+.clerk-keyless-prompt,
+[id^="clerk-keyless"],
+[class^="clerk-keyless"] {
+  display: none !important;
+}
+
+/* Clerk UserProfile Text Contrast Overrides */
+.cl-userProfile-root .cl-profileSectionContent,
+.cl-userProfile-root .cl-userPreviewMainIdentifier,
+.cl-userProfile-root .cl-userPreviewSecondaryIdentifier,
+.cl-userProfile-root .cl-profilePageSubtitle,
+.cl-userProfile-root .cl-profileSectionHeaderSubtitle,
+.cl-userProfile-root .cl-small,
+.cl-userProfile-root .cl-breadcrumbsItem,
+.cl-userProfile-root .cl-breadcrumbsItemText,
+.cl-userProfile-root .cl-identityPreviewText,
+.cl-userProfile-root .cl-badge,
+.cl-userProfile-root .cl-accordionTriggerButton,
+.cl-userProfile-root span,
+.cl-userProfile-root p {
+  color: #ffffff !important;
+}
+
+/* Secondary identifier fallback to light grey */
+.cl-userProfile-root .cl-userPreviewSecondaryIdentifier {
+  color: #e5e5e5 !important;
+}
